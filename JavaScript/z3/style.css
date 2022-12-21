@@ -1,0 +1,35 @@
+.PriceRange {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+
+}
+
+.PriceRange input{
+    width: 55px;
+}
+
+.Table {
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.Table thead tr {
+    background: #c0c0c0;
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.Table td {
+    border-bottom: 1px solid;
+    padding: 5px;
+}

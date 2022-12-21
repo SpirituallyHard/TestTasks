@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Таблица</title>
+    <style>
+        table button{
+            width: 25px;
+        }
+        table.wrapper button{
+            display: block;
+            width: 25px;
+            margin: 20% 0 0 35%;
+        }
+        table.fixed
+        {
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+        table.fixed td
+        {
+            padding: 5px;
+            border: 1px solid #333;
+            min-width: 77px;
+            height: 20px;
+        }
+        input
+        {
+            width: 77px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <table class="wrapper">
+        <tr>
+            <td>
+            <table class="fixed" id="Spreadsheet">
+                <tbody>
+                </tbody>
+            </table>
+            </td>
+            <td><div><button id="Column_Add">+</button><button id="Column_Remove">-</button></div></td>
+        </tr>
+    </table>
+    <table style="margin: 0.5% 0 0 0" >
+        <tr><td><button id="Row_Add">+</button></td><td><button id="Row_Remove">-</button></td></tr>
+    </table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

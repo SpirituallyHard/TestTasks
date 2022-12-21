@@ -1,0 +1,33 @@
+html, body, #map {
+    width: 401px; height: 200px; padding-left: 5%; margin: 0;
+}
+
+.field_first{
+    margin-top: 3%;
+    width: 393px;
+}
+
+div {
+    margin: 1% 0 1% 5%;
+}
+.field{
+    width: 393px;
+}
+
+.field_bottom{
+    margin-bottom: 3%
+}
+
+textarea{
+    resize: none;
+    width: 395px;
+    height: 150px;
+    margin-top: 3%;
+}
+
+button{
+    position: relative;
+    left: 55%;
+    transform: translate(-50%, 0);
+    margin-bottom: 3%;
+}

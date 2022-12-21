@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Задание 2</title>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=4b07e891-7959-4f06-b323-c667658091b1"></script>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<form id = "Checkout">
+  <div><input class="field_first" name="FIO" type="text" placeholder="ФИО"/></div>
+  <div class="field"><input class="field" name="Telephone" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" type="tel" placeholder="Телефон"/></div>
+  <div class="field_bottom"><input name="Mail" class="field" type="email" placeholder="Email"/></div>
+  <div id="map"></div>
+  <div><textarea maxlength="500" placeholder="Комментарий к заказу (макс. 500 символов)"></textarea></div>
+  <button type="submit">Отправить</button>
+</form>
+<script src="event_properties.js" type="text/javascript"></script>
+</body>
+</html>
